@@ -1,0 +1,56 @@
+.header {
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3vw;
+    color: #805A40
+}
+
+/*defines logo image dimensions*/
+.row1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-bottom: 30px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.image {
+    width: 10rem;
+    height: auto;
+}
+
+/*dimensions for phone*/
+@media only screen and (min-width: 414px) {
+    html {
+        font-size: 9px;
+    }
+}
+
+/*dimensions for tablet*/
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}
+
+/*dimensions for desktop*/
+@media only screen and (min-width: 1080px) {
+    html {
+        font-size: 20px;
+    }
+}
+
+
